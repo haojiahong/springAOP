@@ -18,6 +18,7 @@ import org.springframework.stereotype.Component;
  * 
  */
 @Component
+//这个audience类称为“切面”，切面的方法称为“通知”，切面作用的方法入口点称为“切点”
 @Aspect
 public class Audience {
 
